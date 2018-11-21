@@ -1,0 +1,28 @@
+2018-11-19 16:17:57,832-INFO-初始化session
+2018-11-19 16:18:07,437-INFO-正在寻找的元素：{'type': 'id', 'value': 'email'}
+2018-11-19 16:18:07,707-INFO-输入字符串:wanghao7025@163.com
+2018-11-19 16:18:08,747-INFO-正在寻找的元素：{'type': 'id', 'value': 'pwd'}
+2018-11-19 16:18:08,901-INFO-输入字符串:wanghao7025
+2018-11-19 16:18:09,924-INFO-正在寻找的元素：{'type': 'id', 'value': 'submitBtn'}
+2018-11-19 16:18:14,535-INFO-点击元素{'type': 'id', 'value': 'submitBtn'}并等待页面响应完成
+2018-11-19 16:18:14,535-INFO-正在寻找的元素：{'type': 'xpath', 'value': '//div[@onclick="showProList(3831123)"]'}
+2018-11-19 16:18:19,588-INFO-点击元素{'type': 'xpath', 'value': '//div[@onclick="showProList(3831123)"]'}并等待页面响应完成
+2018-11-19 16:18:19,589-INFO-运行case：test_taskcompatible_02
+2018-11-19 16:18:22,338-INFO-正在寻找的元素：{'type': 'xpath', 'value': '//*[@id="page-body"]//div[@class="b-footer"]/ul/li[1]'}
+2018-11-19 16:18:25,154-INFO-点击元素{'type': 'xpath', 'value': '//*[@id="page-body"]//div[@class="b-footer"]/ul/li[1]'}并等待页面响应完成
+2018-11-19 16:18:25,155-INFO-正在寻找的元素：{'type': 'id', 'value': 'uploadApp'}
+2018-11-19 16:18:27,352-INFO-点击元素：<selenium.webdriver.remote.webelement.WebElement (session="951b06348fe506b965fb652fa1aa6c91", element="0.1004427966777588-1")>
+2018-11-19 16:18:27,352-INFO-开始断言验证
+2018-11-19 16:18:27,352-INFO-正在寻找的元素：{'type': 'xpath', 'value': '//*[@id="filePicker"]/div[1]'}
+2018-11-19 16:18:27,375-INFO-[Element: {'type': 'xpath', 'value': '//*[@id="filePicker"]/div[1]'}] Expected <Exists> ,but Actual <Exists>, assert success.
+2018-11-19 16:18:27,377-INFO-正在寻找的元素：{'type': 'xpath', 'value': '//*[@id="select_app"]/div/div/div[@class="modal-header"]/button'}
+2018-11-19 16:18:29,470-INFO-点击元素：<selenium.webdriver.remote.webelement.WebElement (session="951b06348fe506b965fb652fa1aa6c91", element="0.1004427966777588-3")>
+2018-11-19 16:18:29,486-INFO-运行case：test_realmachine_01
+2018-11-19 16:18:31,953-INFO-正在寻找的元素：{'type': 'xpath', 'value': '//ul[@class="nav nav-tabs"]/li[2]/a'}
+2018-11-19 16:18:34,944-INFO-点击元素{'type': 'xpath', 'value': '//ul[@class="nav nav-tabs"]/li[2]/a'}并等待页面响应完成
+2018-11-19 16:18:34,946-INFO-正在寻找的元素：{'type': 'id', 'value': 'records_button'}
+2018-11-19 16:18:36,118-INFO-点击元素{'type': 'id', 'value': 'records_button'}并等待页面响应完成
+2018-11-19 16:18:36,124-INFO-开始断言验证
+2018-11-19 16:18:36,124-INFO-正在寻找的元素：{'type': 'xpath', 'value': '//div[@class="table-bordered"]/table//tr[2]//td/a'}
+2018-11-19 16:18:37,187-INFO-[Element: {'type': 'xpath', 'value': '//div[@class="table-bordered"]/table//tr[2]//td/a'}] Expected <Exists> ,but Actual <Exists>, assert success.
+2018-11-19 16:18:45,036-INFO-html报告生成成功

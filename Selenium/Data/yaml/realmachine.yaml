@@ -1,0 +1,20 @@
+#<!--Element object repository.-->
+#<!--The element naming rules: the element type _ element name. Element types are abbreviated as follows:
+#		Text = T
+#		InputBox = O
+#		View = V
+#		Select = S
+#		CheckBox = C
+#		Button = B
+#	    Aspx = Aspx
+#       textarea = Text
+#-->
+element:
+
+  B_Proprietarycloud:
+    type: xpath
+    value: //ul[@class="nav nav-tabs"]/li[2]/a
+
+  B_lookrecord:
+    type: id
+    value: records_button

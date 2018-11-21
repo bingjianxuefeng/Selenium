@@ -1,0 +1,18 @@
+2018-11-19 16:12:18,694-INFO-初始化session
+2018-11-19 16:12:29,072-INFO-正在寻找的元素：{'type': 'id', 'value': 'email'}
+2018-11-19 16:12:29,418-INFO-输入字符串:wanghao7025@163.com
+2018-11-19 16:12:30,477-INFO-正在寻找的元素：{'type': 'id', 'value': 'pwd'}
+2018-11-19 16:12:30,650-INFO-输入字符串:wanghao7025
+2018-11-19 16:12:31,664-INFO-正在寻找的元素：{'type': 'id', 'value': 'submitBtn'}
+2018-11-19 16:12:36,181-INFO-点击元素{'type': 'id', 'value': 'submitBtn'}并等待页面响应完成
+2018-11-19 16:12:36,181-INFO-正在寻找的元素：{'type': 'xpath', 'value': '//div[@onclick="showProList(3831123)"]'}
+2018-11-19 16:12:42,526-INFO-点击元素{'type': 'xpath', 'value': '//div[@onclick="showProList(3831123)"]'}并等待页面响应完成
+2018-11-19 16:12:42,526-INFO-运行case：test_taskcompatible_02
+2018-11-19 16:12:45,036-INFO-正在寻找的元素：{'type': 'xpath', 'value': '//*[@id="page-body"]//div[@class="b-footer"]/ul/li[1]'}
+2018-11-19 16:12:48,961-INFO-点击元素{'type': 'xpath', 'value': '//*[@id="page-body"]//div[@class="b-footer"]/ul/li[1]'}并等待页面响应完成
+2018-11-19 16:12:48,961-INFO-正在寻找的元素：{'type': 'id', 'value': 'uploadApp'}
+2018-11-19 16:12:51,115-INFO-点击元素：<selenium.webdriver.remote.webelement.WebElement (session="211b9eb02a4c50573a0051eef1598033", element="0.972464013139011-1")>
+2018-11-19 16:12:51,115-INFO-开始断言验证
+2018-11-19 16:12:51,115-INFO-正在寻找的元素：{'type': 'xpath', 'value': '//*[@id="filePicker"]/div[1]'}
+2018-11-19 16:12:51,135-INFO-[Element: {'type': 'xpath', 'value': '//*[@id="filePicker"]/div[1]'}] Expected <Exists> ,but Actual <Exists>, assert success.
+2018-11-19 16:13:00,881-INFO-html报告生成成功

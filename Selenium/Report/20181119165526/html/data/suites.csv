@@ -1,0 +1,11 @@
+"Status","Name","Duration in ms","Description"
+"passed","TestCases.RealMachine.test_01.test_realmachine_01","8051","
+@author:Administrator
+@file: test_01.py
+@time: 2018/11/14
+"
+"passed","TestCases.Compliance.test_02.test_taskcompatible_02","33890","
+@author:Administrator
+@file: test_02.py
+@time: 2018/11/15
+"

@@ -1,0 +1,8 @@
+log.py                      21 INFO     运行case：test_realmachine_01
+log.py                      21 INFO     正在寻找的元素：{'type': 'xpath', 'value': '//ul[@class="nav nav-tabs"]/li[2]/a'}
+log.py                      21 INFO     点击元素{'type': 'xpath', 'value': '//ul[@class="nav nav-tabs"]/li[2]/a'}并等待页面响应完成
+log.py                      21 INFO     正在寻找的元素：{'type': 'id', 'value': 'records_button'}
+log.py                      21 INFO     点击元素{'type': 'id', 'value': 'records_button'}并等待页面响应完成
+log.py                      21 INFO     开始断言验证
+log.py                      21 INFO     正在寻找的元素：{'type': 'xpath', 'value': '//div[@class="table-bordered"]/table//tr[2]//td/a'}
+log.py                      21 INFO     [Element: {'type': 'xpath', 'value': '//div[@class="table-bordered"]/table//tr[2]//td/a'}] Expected <Exists> ,but Actual <Exists>, assert success.

@@ -1,0 +1,24 @@
+#<!--Element object repository.-->
+#<!--The element naming rules: the element type _ element name. Element types are abbreviated as follows:
+#		Text = T
+#		InputBox = O
+#		View = V
+#		Select = S
+#		CheckBox = C
+#		Button = B
+#	    Aspx = Aspx
+#       textarea = Text
+#-->
+element:
+
+  B_StartTest:
+    type: xpath
+    value: //*[@id="page-body"]//div[@class="b-footer"]/ul/li[1]
+
+  B_UPLoadApp:
+    type: id
+    value: uploadApp
+
+  B_close:
+    type: xpath
+    value: //*[@id="select_app"]/div/div/div[@class="modal-header"]/button

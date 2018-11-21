@@ -1,0 +1,45 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "taskcompatible",
+    "children" : [ {
+      "name" : "taskcompatible(Medium)",
+      "children" : [ {
+        "name" : "test_taskcompatible_02",
+        "uid" : "dfcfcf9f684c152b",
+        "parentUid" : "27ede772faa7a95f16f19ac440f19df2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1542617727568,
+          "stop" : 1542617761458,
+          "duration" : 33890
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "27ede772faa7a95f16f19ac440f19df2"
+    } ],
+    "uid" : "3aa79c2022a8eb68436455c81e546772"
+  }, {
+    "name" : "realmachine",
+    "children" : [ {
+      "name" : "taskcompatible(Medium)",
+      "children" : [ {
+        "name" : "test_realmachine_01",
+        "uid" : "68a69ee57e1ae19d",
+        "parentUid" : "46a0ffc4eff2ace753d77b4f26fd9900",
+        "status" : "passed",
+        "time" : {
+          "start" : 1542617761474,
+          "stop" : 1542617769525,
+          "duration" : 8051
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "46a0ffc4eff2ace753d77b4f26fd9900"
+    } ],
+    "uid" : "55a11cb5b36e43950c2bc288d907419d"
+  } ]
+}

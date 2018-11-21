@@ -1,0 +1,130 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1542617761474" stop="1542617769525">
+  <description>
+@author:Administrator
+@file: test_01.py
+@time: 2018/11/14
+</description>
+  <name>TestCases.RealMachine.test_01</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1542617761474" status="passed" stop="1542617769525">
+      <name>test_realmachine_01</name>
+      <attachments>
+        <attachment source="59287120-6e86-437d-a82b-754f3e4351d6-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="story" value="taskcompatible(Medium)"/>
+        <label name="feature" value="realmachine"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="14368-MainThread"/>
+        <label name="host" value="SF99Q3JS6X403R1"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython2"/>
+      </labels>
+      <steps>
+        <step start="1542617761476" status="passed" stop="1542617763941">
+          <name>进入远程真机:&lt;Page_Objects.page_realmachine.Page_RealmaChine object at 0x000000000C22F908&gt;</name>
+          <title>进入远程真机:&lt;Page_Objects.page_realmachine.Page_RealmaChine object at 0x000000000C22F908&gt;</title>
+          <attachments/>
+          <steps>
+            <step start="1542617761476" status="passed" stop="1542617763941">
+              <name>通过url进行页面跳转:https://www.testin.cn/realmachine/index.htm</name>
+              <title>通过url进行页面跳转:https://www.testin.cn/realmachine/index.htm</title>
+              <attachments/>
+              <steps>
+                <step start="1542617761476" status="passed" stop="1542617761488">
+                  <name>等到页面完成加载</name>
+                  <title>等到页面完成加载</title>
+                  <attachments/>
+                  <steps/>
+                </step>
+                <step start="1542617763895" status="passed" stop="1542617763941">
+                  <name>等到页面完成加载</name>
+                  <title>等到页面完成加载</title>
+                  <attachments/>
+                  <steps/>
+                </step>
+              </steps>
+            </step>
+          </steps>
+        </step>
+        <step start="1542617764310" status="passed" stop="1542617767081">
+          <name>点击专有云</name>
+          <title>点击专有云</title>
+          <attachments/>
+          <steps>
+            <step start="1542617764310" status="passed" stop="1542617767081">
+              <name>点击元素并等待页面响应完成{'type': 'xpath', 'value': '//ul[@class="nav nav-tabs"]/li[2]/a'}</name>
+              <title>点击元素并等待页面响应完成{'type': 'xpath', 'value': '//ul[@class="nav nav-tabs"]/li[2]/a'}</title>
+              <attachments/>
+              <steps>
+                <step start="1542617764310" status="passed" stop="1542617764332">
+                  <name>寻找元素:{'type': 'xpath', 'value': '//ul[@class="nav nav-tabs"]/li[2]/a'}</name>
+                  <title>寻找元素:{'type': 'xpath', 'value': '//ul[@class="nav nav-tabs"]/li[2]/a'}</title>
+                  <attachments/>
+                  <steps/>
+                </step>
+                <step start="1542617764332" status="passed" stop="1542617764340">
+                  <name>获取当前的url</name>
+                  <title>获取当前的url</title>
+                  <attachments/>
+                  <steps/>
+                </step>
+                <step start="1542617767072" status="passed" stop="1542617767081">
+                  <name>获取当前的url</name>
+                  <title>获取当前的url</title>
+                  <attachments/>
+                  <steps/>
+                </step>
+              </steps>
+            </step>
+          </steps>
+        </step>
+        <step start="1542617767083" status="passed" stop="1542617768402">
+          <name>点击元素并等待页面响应完成{'type': 'id', 'value': 'records_button'}</name>
+          <title>点击元素并等待页面响应完成{'type': 'id', 'value': 'records_button'}</title>
+          <attachments/>
+          <steps>
+            <step start="1542617767083" status="passed" stop="1542617767101">
+              <name>寻找元素:{'type': 'id', 'value': 'records_button'}</name>
+              <title>寻找元素:{'type': 'id', 'value': 'records_button'}</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1542617767101" status="passed" stop="1542617767106">
+              <name>获取当前的url</name>
+              <title>获取当前的url</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1542617768396" status="passed" stop="1542617768402">
+              <name>获取当前的url</name>
+              <title>获取当前的url</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1542617768415" status="passed" stop="1542617769470">
+          <name>断言:验证元素存在</name>
+          <title>断言:验证元素存在</title>
+          <attachments/>
+          <steps>
+            <step start="1542617768415" status="passed" stop="1542617769469">
+              <name>寻找元素:{'type': 'xpath', 'value': '//div[@class="table-bordered"]/table//tr[2]//td/a'}</name>
+              <title>寻找元素:{'type': 'xpath', 'value': '//div[@class="table-bordered"]/table//tr[2]//td/a'}</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1542617769470" status="passed" stop="1542617769470">
+              <name>Assert Success, Info::[Element: {'type': 'xpath', 'value': '//div[@class="table-bordered"]/table//tr[2]//td/a'}] Expected &lt;Exists&gt; ,but Actual &lt;Exists&gt;, assert success.</name>
+              <title>Assert Success, Info::[Element: {'type': 'xpath', 'value': '//div[@class="table-bordered"]/table//tr[2]//td/a'}] Expected &lt;Exists&gt; ,but Actual &lt;Exists&gt;, assert success.</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

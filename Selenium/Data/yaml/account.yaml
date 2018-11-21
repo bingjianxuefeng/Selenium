@@ -1,0 +1,28 @@
+#<!--Element object repository.-->
+#<!--The element naming rules: the element type _ element name. Element types are abbreviated as follows:
+#		Text = T
+#		InputBox = O
+#		View = V
+#		Select = S
+#		CheckBox = C
+#		Button = B
+#	    Aspx = Aspx
+#       textarea = Text
+#-->
+element:
+
+  account:
+    B_logon:
+      type: id
+      value: submitBtn
+    O_user:
+      type: id
+      value: email
+    O_password:
+      type: id
+      value: pwd
+
+  enterprise:
+    O_Company:
+      type: xpath
+      value: //div[@onclick="showProList(3831123)"]

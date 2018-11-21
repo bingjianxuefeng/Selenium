@@ -1,0 +1,234 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1542617727568" stop="1542617761458">
+  <description>
+@author:Administrator
+@file: test_02.py
+@time: 2018/11/15
+</description>
+  <name>TestCases.Compliance.test_02</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1542617727568" status="passed" stop="1542617761458">
+      <name>test_taskcompatible_02</name>
+      <attachments>
+        <attachment source="86d7e301-55b7-4318-a0f3-85c780fc3d3a-attachment.txt" title="Captured log setup" type="text/plain"/>
+        <attachment source="f3e00c7e-b51f-4ab7-93c6-befdaf0be70c-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="story" value="taskcompatible(Medium)"/>
+        <label name="feature" value="taskcompatible"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="14368-MainThread"/>
+        <label name="host" value="SF99Q3JS6X403R1"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython2"/>
+      </labels>
+      <steps>
+        <step start="1542617730707" status="passed" stop="1542617737186">
+          <name>通过url进行页面跳转:https://www.testin.cn/account/login.htm</name>
+          <title>通过url进行页面跳转:https://www.testin.cn/account/login.htm</title>
+          <attachments/>
+          <steps>
+            <step start="1542617730707" status="passed" stop="1542617730742">
+              <name>等到页面完成加载</name>
+              <title>等到页面完成加载</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1542617737180" status="passed" stop="1542617737186">
+              <name>等到页面完成加载</name>
+              <title>等到页面完成加载</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1542617737199" status="passed" stop="1542617738423">
+          <name>输入内容:{'type': 'id', 'value': 'email'}</name>
+          <title>输入内容:{'type': 'id', 'value': 'email'}</title>
+          <attachments/>
+          <steps>
+            <step start="1542617737199" status="passed" stop="1542617737222">
+              <name>寻找元素:{'type': 'id', 'value': 'email'}</name>
+              <title>寻找元素:{'type': 'id', 'value': 'email'}</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1542617738423" status="passed" stop="1542617739555">
+          <name>输入内容:{'type': 'id', 'value': 'pwd'}</name>
+          <title>输入内容:{'type': 'id', 'value': 'pwd'}</title>
+          <attachments/>
+          <steps>
+            <step start="1542617738423" status="passed" stop="1542617738445">
+              <name>寻找元素:{'type': 'id', 'value': 'pwd'}</name>
+              <title>寻找元素:{'type': 'id', 'value': 'pwd'}</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1542617739555" status="passed" stop="1542617743463">
+          <name>点击元素并等待页面响应完成{'type': 'id', 'value': 'submitBtn'}</name>
+          <title>点击元素并等待页面响应完成{'type': 'id', 'value': 'submitBtn'}</title>
+          <attachments/>
+          <steps>
+            <step start="1542617739555" status="passed" stop="1542617739572">
+              <name>寻找元素:{'type': 'id', 'value': 'submitBtn'}</name>
+              <title>寻找元素:{'type': 'id', 'value': 'submitBtn'}</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1542617739572" status="passed" stop="1542617739576">
+              <name>获取当前的url</name>
+              <title>获取当前的url</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1542617743453" status="passed" stop="1542617743463">
+              <name>获取当前的url</name>
+              <title>获取当前的url</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1542617743463" status="passed" stop="1542617749300">
+          <name>点击元素并等待页面响应完成{'type': 'xpath', 'value': '//div[@onclick="showProList(3831123)"]'}</name>
+          <title>点击元素并等待页面响应完成{'type': 'xpath', 'value': '//div[@onclick="showProList(3831123)"]'}</title>
+          <attachments/>
+          <steps>
+            <step start="1542617743463" status="passed" stop="1542617743483">
+              <name>寻找元素:{'type': 'xpath', 'value': '//div[@onclick="showProList(3831123)"]'}</name>
+              <title>寻找元素:{'type': 'xpath', 'value': '//div[@onclick="showProList(3831123)"]'}</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1542617743483" status="passed" stop="1542617743489">
+              <name>获取当前的url</name>
+              <title>获取当前的url</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1542617749293" status="passed" stop="1542617749300">
+              <name>获取当前的url</name>
+              <title>获取当前的url</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1542617749301" status="passed" stop="1542617753620">
+          <name>通过url进行页面跳转:https://www.testin.cn/task_compatible/list.htm</name>
+          <title>通过url进行页面跳转:https://www.testin.cn/task_compatible/list.htm</title>
+          <attachments/>
+          <steps>
+            <step start="1542617749301" status="passed" stop="1542617749308">
+              <name>等到页面完成加载</name>
+              <title>等到页面完成加载</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1542617753613" status="passed" stop="1542617753620">
+              <name>等到页面完成加载</name>
+              <title>等到页面完成加载</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1542617753628" status="passed" stop="1542617757182">
+          <name>点击开始测试</name>
+          <title>点击开始测试</title>
+          <attachments/>
+          <steps>
+            <step start="1542617753628" status="passed" stop="1542617757182">
+              <name>点击元素并等待页面响应完成{'type': 'xpath', 'value': '//*[@id="page-body"]//div[@class="b-footer"]/ul/li[1]'}</name>
+              <title>点击元素并等待页面响应完成{'type': 'xpath', 'value': '//*[@id="page-body"]//div[@class="b-footer"]/ul/li[1]'}</title>
+              <attachments/>
+              <steps>
+                <step start="1542617753628" status="passed" stop="1542617753650">
+                  <name>寻找元素:{'type': 'xpath', 'value': '//*[@id="page-body"]//div[@class="b-footer"]/ul/li[1]'}</name>
+                  <title>寻找元素:{'type': 'xpath', 'value': '//*[@id="page-body"]//div[@class="b-footer"]/ul/li[1]'}</title>
+                  <attachments/>
+                  <steps/>
+                </step>
+                <step start="1542617753650" status="passed" stop="1542617753654">
+                  <name>获取当前的url</name>
+                  <title>获取当前的url</title>
+                  <attachments/>
+                  <steps/>
+                </step>
+                <step start="1542617757171" status="passed" stop="1542617757181">
+                  <name>获取当前的url</name>
+                  <title>获取当前的url</title>
+                  <attachments/>
+                  <steps/>
+                </step>
+              </steps>
+            </step>
+          </steps>
+        </step>
+        <step start="1542617757182" status="passed" stop="1542617759336">
+          <name>点击上传应用</name>
+          <title>点击上传应用</title>
+          <attachments/>
+          <steps>
+            <step start="1542617757182" status="passed" stop="1542617759336">
+              <name>点击元素:&lt;Page_Objects.page_taskcompatible.Page_Task_Compatible object at 0x000000000C22F2E8&gt;</name>
+              <title>点击元素:&lt;Page_Objects.page_taskcompatible.Page_Task_Compatible object at 0x000000000C22F2E8&gt;</title>
+              <attachments/>
+              <steps>
+                <step start="1542617757182" status="passed" stop="1542617757206">
+                  <name>寻找元素:{'type': 'id', 'value': 'uploadApp'}</name>
+                  <title>寻找元素:{'type': 'id', 'value': 'uploadApp'}</title>
+                  <attachments/>
+                  <steps/>
+                </step>
+              </steps>
+            </step>
+          </steps>
+        </step>
+        <step start="1542617759336" status="passed" stop="1542617759358">
+          <name>断言:验证元素存在</name>
+          <title>断言:验证元素存在</title>
+          <attachments/>
+          <steps>
+            <step start="1542617759336" status="passed" stop="1542617759358">
+              <name>寻找元素:{'type': 'xpath', 'value': '//*[@id="filePicker"]/div[1]'}</name>
+              <title>寻找元素:{'type': 'xpath', 'value': '//*[@id="filePicker"]/div[1]'}</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1542617759358" status="passed" stop="1542617759358">
+              <name>Assert Success, Info::[Element: {'type': 'xpath', 'value': '//*[@id="filePicker"]/div[1]'}] Expected &lt;Exists&gt; ,but Actual &lt;Exists&gt;, assert success.</name>
+              <title>Assert Success, Info::[Element: {'type': 'xpath', 'value': '//*[@id="filePicker"]/div[1]'}] Expected &lt;Exists&gt; ,but Actual &lt;Exists&gt;, assert success.</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1542617759358" status="passed" stop="1542617761458">
+          <name>取消上传文件</name>
+          <title>取消上传文件</title>
+          <attachments/>
+          <steps>
+            <step start="1542617759359" status="passed" stop="1542617761458">
+              <name>点击元素:&lt;Page_Objects.page_taskcompatible.Page_Task_Compatible object at 0x000000000C22F2E8&gt;</name>
+              <title>点击元素:&lt;Page_Objects.page_taskcompatible.Page_Task_Compatible object at 0x000000000C22F2E8&gt;</title>
+              <attachments/>
+              <steps>
+                <step start="1542617759359" status="passed" stop="1542617759380">
+                  <name>寻找元素:{'type': 'xpath', 'value': '//*[@id="select_app"]/div/div/div[@class="modal-header"]/button'}</name>
+                  <title>寻找元素:{'type': 'xpath', 'value': '//*[@id="select_app"]/div/div/div[@class="modal-header"]/button'}</title>
+                  <attachments/>
+                  <steps/>
+                </step>
+              </steps>
+            </step>
+          </steps>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

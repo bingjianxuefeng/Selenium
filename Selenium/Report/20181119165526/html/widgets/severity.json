@@ -1,0 +1,21 @@
+[ {
+  "uid" : "dfcfcf9f684c152b",
+  "name" : "test_taskcompatible_02",
+  "time" : {
+    "start" : 1542617727568,
+    "stop" : 1542617761458,
+    "duration" : 33890
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "68a69ee57e1ae19d",
+  "name" : "test_realmachine_01",
+  "time" : {
+    "start" : 1542617761474,
+    "stop" : 1542617769525,
+    "duration" : 8051
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
