@@ -15,14 +15,14 @@ from Unit.log import Log as L
 @pytest.fixture(scope='session')
 def session():
     try:
-        L.info_log('初始化session')
+        L.info_log(u'初始化session')
         mybasepage = creatsession()
         logon_testin(get_config('user', 'name'), get_config('user', 'password'))
 
         yield mybasepage
     except:
 
-        L.warning_log('创建session失败')
+        L.warning_log(u'创建session失败')
         raise
 
     finally:
