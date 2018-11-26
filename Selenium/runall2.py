@@ -8,6 +8,5 @@
 import pytest
 
 if __name__ == "__main__":
-    xml_file_path = os.path.abspath(os.path.join(os.path.dirname(__file__), 'Report'))
-    args = ['-s', '-q', '--alluredir', xml_file_path]
+    args = ['-s', '-q']
     pytest.main(args)
