@@ -8,5 +8,8 @@
 import pytest
 
 if __name__ == "__main__":
-    args = ['-s', '-q']
+	xml_file_path = os.path.abspath(os.path.join(os.path.dirname(__file__), 'Report'))
+
+    # 如果你需要调试单个用例,用feature执行,将feature改为指定的名字即可.
+    args = ['-s', '-q', '--alluredir', xml_file_path]
     pytest.main(args)
