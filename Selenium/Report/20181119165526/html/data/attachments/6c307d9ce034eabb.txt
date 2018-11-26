@@ -1,9 +1,0 @@
-log.py                      21 INFO     初始化session
-log.py                      21 INFO     正在寻找的元素：{'type': 'id', 'value': 'email'}
-log.py                      21 INFO     输入字符串:wanghao7025@163.com
-log.py                      21 INFO     正在寻找的元素：{'type': 'id', 'value': 'pwd'}
-log.py                      21 INFO     输入字符串:wanghao7025
-log.py                      21 INFO     正在寻找的元素：{'type': 'id', 'value': 'submitBtn'}
-log.py                      21 INFO     点击元素{'type': 'id', 'value': 'submitBtn'}并等待页面响应完成
-log.py                      21 INFO     正在寻找的元素：{'type': 'xpath', 'value': '//div[@onclick="showProList(3831123)"]'}
-log.py                      21 INFO     点击元素{'type': 'xpath', 'value': '//div[@onclick="showProList(3831123)"]'}并等待页面响应完成
