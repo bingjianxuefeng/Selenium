@@ -20,4 +20,4 @@ if __name__ == "__main__":
     # print(s_argv)
     # print(s_argv[1:])
     # print(args)
-    pytest.main(args)
+    pytest.main(s_args)
