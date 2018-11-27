@@ -41,7 +41,8 @@ if __name__ == "__main__":
     html_file_path = os.path.abspath(os.path.join(xml_file_path, 'html'))
 
     # 如果你需要调试单个用例,用feature执行,将feature改为指定的名字即可.
-    args = ['-s', '-q', '--alluredir', xml_file_path, '--allure_stories', 'taskcompatible(Medium)']
+    # args = ['-s', '-q', '--alluredir', xml_file_path, '--allure_stories', 'taskcompatible(Medium)']
+    args = ['-s', '-q', '--alluredir', xml_file_path]
     pytest.main(args)
 
     #利用allure生成html报告
