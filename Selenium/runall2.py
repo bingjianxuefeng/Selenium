@@ -16,9 +16,9 @@ if __name__ == "__main__":
     s_argv = sys.argv
     s_args = ['-s', '-q']
     s_arg = s_argv[1:]
-    args = s_args + s_arg[:1]
-    xml_file_path = os.path.abspath(os.path.join(os.path.dirname(__file__), 'Report'))
-    args.append(xml_file_path)
+    args = s_args + s_arg
+    #xml_file_path = os.path.abspath(os.path.join(os.path.dirname(__file__), 'Report'))
+    #args.append(xml_file_path)
     # print(s_len)
     # print(s_argv)
     # print(s_argv[1:])
